@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tank2D : MonoBehaviour
 {
     public Transform bulletSpawnPoint;
+    public Rigidbody2D PlayerBody;
     public GameObject bulletPrefab;
     public float bulletSpeed = 10;
     public float moveSpeed = 2;
